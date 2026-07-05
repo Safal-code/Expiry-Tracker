@@ -4,6 +4,15 @@ import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import { generateToken } from "../notification/Firebase";
 
+
+// const EditProfile = () => {
+//     const [formData, setFormData] = useState({
+//         name: "",
+//         email: "",
+//         password: "",
+//         confirmPassword: "",
+//     });
+
 const EditProfile = () => {
     const [formData, setFormData] = useState({
         name: "",
