@@ -20,17 +20,7 @@ const Navbar = () => {
   //     window.removeEventListener("storage", handleStorageChange);
   //   };
   // }, []);
-  // useEffect(() => {
-  //   const handleStorageChange = () => {
-  //     const storedUser = Cookies.get("user");
-  //     setUser(storedUser ? JSON.parse(storedUser) : null);
-  //   };
-  //   window.addEventListener("storage", handleStorageChange);
-  //   return () => {
-  //     window.removeEventListener("storage", handleStorageChange);
-  //   };
-  // }, []);
-
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       const storedUser = Cookies.get("user");
