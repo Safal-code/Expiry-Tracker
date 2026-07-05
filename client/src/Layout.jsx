@@ -1,7 +1,7 @@
 // components/Layout.jsx
 import React from 'react';
 
-//LAYOUT FILE
+//LAYOUT FILES
 const Layout = ({ children }) => {
   return (
     <div className="relative min-h-screen">
