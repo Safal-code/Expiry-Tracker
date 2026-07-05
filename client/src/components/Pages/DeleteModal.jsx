@@ -1,6 +1,6 @@
 // src/components/DeleteModal.js
 import React from "react";
-//delete model page
+//delete model pag gie
 const DeleteModal = ({ showModal, setShowModal, handleDelete }) => {
   if (!showModal) return null;
 
