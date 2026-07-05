@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import useLogout from "../../auth/useLogout";
 import Cookies from "js-cookie";
 
-//profile
+
 const Profile = () => {
   const logout = useLogout();
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ const Profile = () => {
       {/* Profile Icon (Always Visible) */}
       <FaUserCircle className="text-3xl text-gray-400 hover:text-white cursor-pointer" />
 
-      {/* Dropdown Menu (Appears on Hover) */}
+      {/* Dropdown Menu  (Appears on Hover) */}
       {isOpen && (
         <div className="absolute right-0 mt-0 w-56 bg-gray-50 shadow-lg rounded-lg border-gray-300 z-50">
           <div className="p-4 border-b-gray-300">
