@@ -6,6 +6,13 @@ import Cookies from "js-cookie";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+//login arrow function
+// const Login = () => {
+//   const [formData, setFormData] = useState({ email: "", password: "" });
+//   const [isLoading, setIsLoading] = useState(false);
+//   const navigate = useNavigate();
+
+
 const Login = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [isLoading, setIsLoading] = useState(false);
