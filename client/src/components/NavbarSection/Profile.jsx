@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import useLogout from "../../auth/useLogout";
 import Cookies from "js-cookie";
 
-
+//profile
 const Profile = () => {
   const logout = useLogout();
   const navigate = useNavigate();
