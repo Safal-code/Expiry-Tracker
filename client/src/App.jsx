@@ -11,7 +11,7 @@ import ProductPage from "./components/Pages/ProductPage";
 import { useEffect, useState } from "react";
 import { generateToken, messaging , onMessageListener} from "./notification/Firebase";
 // import { onMessage } from "firebase/messaging";
-// import Layout from "./components/Layout";
+// import Layout from "./components/Layout ";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Login from "./auth/Login";
